@@ -91,6 +91,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>later!</sup>',
+    description: 'Beautiful places I want to visit!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>in the future!</sup>',
+    description: 'Long-term personal vision!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
 ];
 
 const columns = [
@@ -115,41 +127,71 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'Lakes',
+    icon: 'water',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Pools',
+    icon: 'swimming-pool',
   },
 ];
 
 const cards = [
   {
     id: 'card-1',
+    listId: 'list-1',
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
   },
   {
     id: 'card-2',
+    listId: 'list-1',
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
   },
   {
     id: 'card-3',
+    listId: 'list-1',
     columnId: 'column-2',
     title: 'Harry Potter',
   },
   {
     id: 'card-4',
+    listId: 'list-1',
     columnId: 'column-2',
     title: 'Star Wars',
   },
   {
     id: 'card-5',
+    listId: 'list-1',
     columnId: 'column-3',
     title: 'The Witcher',
   },
   {
     id: 'card-6',
+    listId: 'list-1',
     columnId: 'column-3',
     title: 'Skyrim',
+  },
+  {
+    id: 'card-7',
+    listId: 'list-2',
+    columnId: 'column-4',
+    title: 'Plitvice Lakes National Park, Croatia',
+  },
+  {
+    id: 'card-8',
+    listId: 'list-2',
+    columnId: 'column-4',
+    title: 'Carrera Lake (Lake Buenos Aires), Santa Cruz, Argentina',
+  },
+  {
+    id: 'card-9',
+    listId: 'list-2',
+    columnId: 'column-5',
+    title: 'Natural Pool - Santorini, Greece',
   },
 ];
 
